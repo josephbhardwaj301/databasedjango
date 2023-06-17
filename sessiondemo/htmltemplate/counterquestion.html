@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MCQ</title>
+</head>
+<body>
+<h1>QUESTIONS</h1>
+
+<form><table border="1">
+    <tr>
+        <td colspan="2">{{question}}</td>
+
+    </tr>
+    <tr>
+        <td>
+     <label>   <input required type="radio" name="opt" value="1">{{opt1}}</label>
+        </td>
+        <td>
+        <label>   <input required type="radio" name="opt" value="2">{{opt2}}</label>
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+        <label>   <input required type="radio" name="opt" value="3">{{opt3}}</label>
+        </td>
+        <td>
+     <label>   <input required type="radio" name="opt" value="4">{{opt4}}</label>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">
+<input type="submit">
+        </td>
+    </tr>
+    </table>
+    {{result}}
+    <h2>Score is {{score}}</h2>
+</form>
+</body>
+</html>
